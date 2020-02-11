@@ -38,13 +38,13 @@ body > section:nth-child(n + 3) > article {
 body > section:nth-child(n + 3) > article:hover {
     transform: scale(1.1);
 }
-body > section:nth-child(n + 3) > article > a,
-body > section:nth-child(n + 3) > article > a img {
+body > section:nth-child(n + 3) > article > div,
+body > section:nth-child(n + 3) > article > div img {
     width: 100%;
     display: block;
 }
 
-body > section:nth-child(n + 3) > article > a img:nth-child(2) {
+body > section:nth-child(n + 3) > article > div img:nth-child(2) {
     width: 40px;
     right: 0.9375rem;
     top: 0.25rem;
